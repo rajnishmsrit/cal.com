@@ -6,6 +6,7 @@ function RedirectPage() {
   return;
 }
 
+// Hello world
 export async function getServerSideProps({ req, res }: GetServerSidePropsContext) {
   const session = await getServerSession({ req, res });
 
